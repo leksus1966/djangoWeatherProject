@@ -5,8 +5,8 @@ This is a simple weather application built with Python (Django).
 
 ## Pre-Requisites:
 
-1. Install the latest version of Python [ https://www.python.org/downloads/ ]
-   I used the Python 3.12 
+1. Install the latest version of [Python](https://www.python.org/downloads/)
+   - I used the Python 3.13
 
 2. Sign up for a free account at [weatherapi.com](https://www.weatherapi.com/), log in, and generate your new API key in the dashboard section.
 
@@ -26,7 +26,7 @@ or
 git@github.com:leksus1966/djangoWeatherProject.git
 ```
 
-**Then, Enter the project directory**
+**Enter the project directory**
 ```
 $  cd djangoWeatherProject
 ```
@@ -44,24 +44,25 @@ $  source .venv/bin/activate
 ```
 
 **Install packages**
-Install Django within a dedicated virtual environment
-Install Requests Library
-```python
-$  pip install -r requirements.txt
+ - Install Django within a dedicated virtual environment
+ - Install Requests Library
+```
+$ pip install -r requirements.txt
 ```
 
-**6. Now Run Server**
+**4. Now Run the Server**
 
 Command for Windows:
-```python
+```
 $ python manage.py runserver
 ```
 
 Command for Linux or Mac:
-```python
+```
 $ python3 manage.py runserver
 ```
-
+**5. Go to the page**
+ - Project is [here](http://127.0.0.1:8000/)
 
 ## Connect with me
 
