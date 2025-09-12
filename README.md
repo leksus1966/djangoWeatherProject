@@ -8,19 +8,9 @@ This is a simple weather application built with Python (Django).
 1. Install the latest version of Python [ https://www.python.org/downloads/ ]
    I used the Python 3.12 
 
-2. Install the latest version of Django within a dedicated virtual environment
-```bash
-pip install django
-```
+2. Sign up for a free account at [weatherapi.com](https://www.weatherapi.com/), log in, and generate your new API key in the dashboard section.
 
-3. Install Requests Library
-```bash
-pip install requests
-```
-
-4. Sign up for a free account at [weatherapi.com](https://www.weatherapi.com/), log in, and generate your new API key in the dashboard section.
-
-5. After generating your API key, copy it into the "WEATHERAPI_KEY" variable within the views.py file using this format:
+3. After generating your API key, copy it into the "WEATHERAPI_KEY" variable within the .env file using this format:
 ```bash
 WEATHERAPI_KEY = 'your-api-key'
 ```
@@ -50,10 +40,12 @@ $  source venv/scripts/activate
 
 For Linux and Mac
 ```
-$  source venv/bin/activate
+$  source .venv/bin/activate
 ```
 
-**Install Requirements from 'requirements.txt'**
+**Install packages**
+Install Django within a dedicated virtual environment
+Install Requests Library
 ```python
 $  pip install -r requirements.txt
 ```
