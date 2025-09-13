@@ -64,6 +64,23 @@ $ python3 manage.py runserver
 **5. Go to the page**
  - Project is [here](http://127.0.0.1:8000/)
 
+**6. How to start this application in the container**
+ - Install Docker Desktop
+ - Start using docker-compose
+```bash
+docker-compose up -d --build
+```
+ - Check logs from container
+```bash
+docker-compose logs -f
+```
+
+ - if everything is OK we can see 
+```bash
+ ✔ weather-app            Built                                                                                                                                                                                                                   0.0s 
+ ✔ Container weather-app  Started    
+```
+
 ## Connect with me
 
 - Github [https://github.com/leksus1966]
